@@ -1,5 +1,6 @@
 
 import React from 'react'
+import img from '../images/images.jpg'
  // Make sure to replace with the correct path to your image
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
             </div>
             {/* image */}
             <div>
-              <img src="https://avatars.githubusercontent.com/u/122626646?v=4" alt="Profile" className="w-48 h-48 rounded-full mt-4" />
+              <img src={img} alt="Profile" className="w-48 h-48 rounded-full mt-4" />
             </div>
         </div>
         <div className="flexitems-center  min-h-screen sm:hidden flex-col gap-10 p-6">
@@ -26,7 +27,7 @@ function Home() {
             </div>
             {/* image */}
             <div>
-              <img src="https://avatars.githubusercontent.com/u/122626646?v=4" alt="Profile" className="w-48 h-48 rounded-full mt-4" />
+              <img src={img} alt="Profile" className="w-48 h-48 rounded-full mt-4" />
             </div>
         </div>
     </div>
