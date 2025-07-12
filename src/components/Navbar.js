@@ -15,13 +15,13 @@ function Navbar() {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/projects">Project</Link>
+          <Link to="/proj">Project</Link>
         </li>
         <li>
           <Link to="/education">Education</Link>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="/skills">Contact Us</Link>
         </li>
       </ul>
 

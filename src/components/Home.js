@@ -1,13 +1,13 @@
 
 import React from 'react'
-import img from '../images/images.jpg'
+import img from '../images/image.webp';
  // Make sure to replace with the correct path to your image
 
 function Home() {
   return (
     
     <>
-    <div className=" bg-gray-800  items-center">
+    <div className=" bg-black  items-center">
         <div className="flex justify-center items-center min-h-screen gap-20 hidden sm:flex">
             <div>
                 <p className="text-white font-bold text-xl">Hello</p>
