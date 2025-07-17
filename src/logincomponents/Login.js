@@ -10,7 +10,7 @@
 
             e.preventDefault();
 
-        if(name == "admin" && password == "admin"){
+        if(name == "admin1" && password == "admin1"){
             setLoggedIn(true);
             setRole("admin");
             alert("Login Successful");
